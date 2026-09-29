@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+
+<body style="
+    margin: 0;
+    padding: 14px;
+    background-color: white;
+    position: relative;
+    min-height: 1840px;
+">
+
+    <!-- TOP LEFT BOX -->
+    <div style="
+        position: absolute;
+        top: 14px;
+        left: 14px;
+        width: 610px;
+        height: 610px;
+        padding: 10px;
+        border: 10px solid black;
+        background-color: #66a6a6;
+        box-sizing: content-box;
+    ">
+
+        <p style="
+            margin: 40px 40px;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 30px;
+            line-height: 1.25;
+            color: black;
+        ">
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipiscing elit.<br>
+            Aliquam at sapien porttitor<br>
+            urna elementum lacinia. In id<br>
+            magna pulvinar, ultricies<br>
+            lorem id, vehicula elit.<br>
+            Aliquam eu luctus nisl, vitae<br>
+            pellentesque magna. Phasellus<br>
+            dolor metus, laoreet ac<br>
+            convallis sit amet, efficitur sed<br>
+            dolor.
+        </p>
+
+    </div>
+
+
+    <!-- CENTER YELLOW BOX -->
+    <div style="
+        position: absolute;
+        top: 664px;
+        left: 664px;
+        width: 510px;
+        height: 560px;
+        border: 20px solid black;
+        background-color: #ffd91a;
+        box-sizing: content-box;
+    ">
+    </div>
+
+
+    <!-- BOTTOM LEFT RED BOX -->
+    <div style="
+        position: absolute;
+        top: 1264px;
+        left: 114px;
+        width: 510px;
+        height: 510px;
+        border: 20px solid black;
+        background-color: #d45c5c;
+        box-sizing: content-box;
+    ">
+    </div>
+
+</body>
+</html>
